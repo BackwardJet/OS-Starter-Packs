@@ -17,7 +17,9 @@ set softtabstop=4
 set expandtab
  
 " syntax highlighting
-set syntax
+if has("syntax")
+  syntax on
+endif
 
 " Make searches case-sensitive only if they contain upper-case characters
 set ignorecase
