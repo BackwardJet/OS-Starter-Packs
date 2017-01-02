@@ -35,7 +35,7 @@ if [[ $1 == "" ]]; then
     echo "No commit message provided"
     exit 1
 else
-	if [[ $1 == "-a" ]]; then
+    if [[ $1 == "-a" ]]; then
         echo ""
         if [[ $2 == "" ]]; then
             echo "No commit message provided"
@@ -45,9 +45,9 @@ else
             commit $2
             pushall
         fi
-	else
+    else
         add_all
-        commit $1
+        commit "$1"
         push_first
     fi
 fi
