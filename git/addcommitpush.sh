@@ -1,9 +1,10 @@
-#!/bin/bash                                                                                             
-# Set up alias:                                                                                         
-#   vim ~/.bashrc                                                                                       
-#   Add this line: alias doit='bash ~/addcommitpush.sh'                                                 
-#   Save and quit                                                                                       
-#   Run this command: source ~/.bashrc                                                                  
+#!/bin/bash
+# Set up alias:
+#   vim ~/.bashrc
+#   Add this line: alias acp='bash ~/path/to/git/addcommitpush.sh'
+#   Save and quit
+#   Run this command: source ~/.bashrc
+
 add_all()
 {
     git add -A *
