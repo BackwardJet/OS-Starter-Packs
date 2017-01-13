@@ -36,8 +36,8 @@ else
     check_gitconfig
 fi
 cp $MY_PATH/git/.gitconfig $MY_PATH/vi/.vimrc ~
-echo "alias acp='$MY_PATH/git/addcommitpush.sh'" >> ~/.bash_aliases
-echo "alias asu='$MY_PATH/git/auto-setup-git.sh'" >> ~/.bash_aliases
+echo "alias acp='bash $MY_PATH/git/addcommitpush.sh'" >> ~/.bash_aliases
+echo "alias asu='bash $MY_PATH/git/auto-setup-git.sh'" >> ~/.bash_aliases
 . ~/.bashrc
 . ~/.bash_aliases
 echo "Your system now has your git information and a simple vim config"
