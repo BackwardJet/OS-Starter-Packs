@@ -27,3 +27,17 @@ set smartcase
 
 " line numbers
 set number
+
+" disable 'Ex' mode
+nnoremap Q <nop>
+
+" rewrite capital :W to :w (:write)
+:ca W w
+
+" rewrite capital :Q to :q (:quit)
+:ca Q q
+
+" rewrite capital :WQ and variations to :wq (:writequit)
+:ca WQ wq
+:ca Wq wq
+:ca wQ wq

@@ -1,5 +1,5 @@
 [user]
-	email = email@domain.com
-	name = username
+    email = email@domain.com
+    name = username
 [credential]
     helper = cache
