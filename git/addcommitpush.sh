@@ -7,7 +7,7 @@
 
 add_all()
 {
-    git add -A *
+    git add --all *
 }
 
 commit()
