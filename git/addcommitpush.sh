@@ -8,6 +8,7 @@
 add_all()
 {
     git add --all *
+    git add -A
     git add -u *
 }
 
