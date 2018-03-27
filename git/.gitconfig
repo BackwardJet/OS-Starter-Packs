@@ -2,4 +2,4 @@
     email = email@domain.com
     name = username
 [credential]
-    helper = cache
+    helper = cache --timeout 86400
